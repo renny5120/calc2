@@ -14,6 +14,21 @@ function divide(a,b){
     return a/b;
 }
 
-function operate(){
-    
+function operate(operator, a, b){
+    let value;
+    switch(operator){
+        case '+':
+            value = add(a,b);
+            break;
+        case '-':
+            value = subtract(a,b);
+            break;
+        case '*':
+            value = multiply(a,b);
+            break;
+        case '/':
+            value = divide(a,b);
+            break;
+    }
+    return value;
 }
