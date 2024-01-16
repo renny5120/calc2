@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    width: 300px;
+    border: 10px solid burlywood;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 40px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+.displayContainer{
+    flex: 1 1 0;
+    width: 270px;
+    border: 2.5px dashed forestgreen;
+    padding: 10px;
+    display: flex;
+    background-color: beige;
+}
+
+.display{
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.numbers, .operators{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* flex: 1 1 0; */
+    /* width: 200px;
+    height: 400px; */
+}
+
+.numbers{
+    
+    /* flex-direction: row-reverse; */
+}
+
+button{
+    flex: 1 1 0;
+    min-height: 50px;
+    min-width: 50px;
+    background-color: white;
+    color: darkgreen;
+    border-radius: 5px;
+    font-size: larger;
+    border: 1px solid;
+}
