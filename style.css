@@ -48,6 +48,12 @@ body{
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: darkgreen;
+    padding: 10px;
+    
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap;
+
 }
 
 .numbers, .operators{
